@@ -1,4 +1,4 @@
-Unity Script Documentation (EN)
+# Unity Script Documentation (EN)
 
 This project now uses a single split-component architecture. The former all-in-one `GameManager.cs` architecture was removed. The central script is now `GameSession.cs`, but it is intentionally a coordinator only: it owns game state and wires components together, while the actual gameplay work is handled by focused scripts.
 
